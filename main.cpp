@@ -3,6 +3,7 @@
 #include "Ejercicio3/excepcionfunciones.h"
 #include "Ejercicio4/clasesexcepcion.h"
 #include "Ejercicio5/excepcionreactivacion.h"
+#include "Ejercicio6/excepcionesnointerceptadas.h"
 
 int main() {
     banderas(8.54, 2); //BIEN
@@ -10,5 +11,7 @@ int main() {
     excepcionfunciones(); //BIEN
     clasesexcepcion(); //BIEN
     excepcionreactivacion(); //BIEN
+    excepcionesnointerceptadas(); //BIEN
+
     return 0;
 }

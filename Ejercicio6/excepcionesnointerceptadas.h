@@ -1,12 +1,6 @@
 #ifndef EXCEPCIONESNOINTERCEPTADAS_H
 #define EXCEPCIONESNOINTERCEPTADAS_H
 
-
-
-class excepcionesnointerceptadas {
-
-};
-
-
+int excepcionesnointerceptadas();
 
 #endif //EXCEPCIONESNOINTERCEPTADAS_H
