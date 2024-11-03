@@ -13,8 +13,9 @@ void escribeEnArchivo(ofstream& file) {
 }
 
 int adquisicionrecursos(bool simulateError) {
-    ofstream file("../archivo.txt");
-
+    ofstream file("../archivo.txt"); /*Se colocan los 2 puntos porque este archivo se crea dentro de la carpeta cmake-build-debug, y para
+                                        que se cree en el directorio raíz colocamos los dos puntos, que significa que estoy subiendo un directorio
+                                        hacia atrás*/
     try {
         if(simulateError) {
             file.close(); // Cierra el archivo para simular un error

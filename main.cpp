@@ -7,12 +7,14 @@
 #include "Ejercicio7/adquisicionrecursos.h"
 
 int main() {
-    banderas(8.54, 2); //BIEN
-    excepciones(5,0); //BIEN
-    excepcionfunciones(); //BIEN
-    clasesexcepcion(); //BIEN
-    excepcionreactivacion(); //BIEN
-    excepcionesnointerceptadas(); //BIEN
-    adquisicionrecursos(false); //BIEN
+    banderas(8.54, 2);
+    excepciones(5,0);
+    excepcionfunciones();
+    clasesexcepcion();
+    excepcionreactivacion();
+    excepcionesnointerceptadas(); /*Esta función al arrojar un error (Process finished with exit code 3) evita que la última función
+                                    cree el archivo 'archivo.txt'. Para que se cree el archivo correctamente, hay que comentar o deshabilitar
+                                    esta función.*/
+    adquisicionrecursos(false);
     return 0;
 }
