@@ -1,0 +1,12 @@
+#ifndef EXCEPCIONESNOINTERCEPTADAS_H
+#define EXCEPCIONESNOINTERCEPTADAS_H
+
+
+
+class excepcionesnointerceptadas {
+
+};
+
+
+
+#endif //EXCEPCIONESNOINTERCEPTADAS_H
