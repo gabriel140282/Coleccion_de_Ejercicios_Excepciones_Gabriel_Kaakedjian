@@ -1,12 +1,6 @@
 #ifndef EXCEPCIONES_H
 #define EXCEPCIONES_H
 
-
-
-class excepciones {
-
-};
-
-
+void excepciones(int a, int b);
 
 #endif //EXCEPCIONES_H
