@@ -4,6 +4,7 @@
 #include "Ejercicio4/clasesexcepcion.h"
 #include "Ejercicio5/excepcionreactivacion.h"
 #include "Ejercicio6/excepcionesnointerceptadas.h"
+#include "Ejercicio7/adquisicionrecursos.h"
 
 int main() {
     banderas(8.54, 2); //BIEN
@@ -12,6 +13,6 @@ int main() {
     clasesexcepcion(); //BIEN
     excepcionreactivacion(); //BIEN
     excepcionesnointerceptadas(); //BIEN
-
+    adquisicionrecursos(false); //BIEN
     return 0;
 }

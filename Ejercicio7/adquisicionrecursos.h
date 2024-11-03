@@ -1,12 +1,6 @@
 #ifndef ADQUISICIONRECURSOS_H
 #define ADQUISICIONRECURSOS_H
 
-
-
-class adquisicionrecursos {
-
-};
-
-
+int adquisicionrecursos(bool simulateError);
 
 #endif //ADQUISICIONRECURSOS_H
