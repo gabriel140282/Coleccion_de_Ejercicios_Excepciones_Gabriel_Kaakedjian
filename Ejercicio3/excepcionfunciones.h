@@ -1,12 +1,6 @@
 #ifndef EXCEPCIONFUNCIONES_H
 #define EXCEPCIONFUNCIONES_H
 
-
-
-class excepcionfunciones {
-
-};
-
-
+int excepcionfunciones();
 
 #endif //EXCEPCIONFUNCIONES_H
