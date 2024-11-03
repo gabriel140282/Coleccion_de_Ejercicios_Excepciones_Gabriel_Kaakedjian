@@ -1,12 +1,7 @@
 #ifndef BANDERAS_H
 #define BANDERAS_H
 
-
-
-class banderas {
-
-};
-
-
+float banderas(float a, float b);
 
 #endif //BANDERAS_H
+
